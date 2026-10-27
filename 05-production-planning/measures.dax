@@ -1,0 +1,8 @@
+-- Power BI: table name Production
+Total Planned = SUM(Production[planned_units])
+Total Actual = SUM(Production[actual_units])
+Total Capacity = SUM(Production[capacity_units])
+Plan Variance = [Total Actual] - [Total Planned]
+Plan Attainment % = DIVIDE([Total Actual], [Total Planned])
+Capacity Utilization % = DIVIDE([Total Actual], [Total Capacity])
+Unfilled Capacity = [Total Capacity] - [Total Actual]
