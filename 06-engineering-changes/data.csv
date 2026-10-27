@@ -1,0 +1,97 @@
+eco_id,submitted_date,approved_date,change_type,owner_team,priority,approval_days,production_delay_days,estimated_delay_cost_usd
+ECO-0001,2026-08-01,2026-08-15,Drawing correction,Mechanical,Low,14,0,0
+ECO-0002,2026-08-02,2026-08-11,BOM update,Manufacturing,Medium,9,4,2300
+ECO-0003,2026-08-03,2026-08-19,Tolerance revision,Supply Chain,High,16,7,4900
+ECO-0004,2026-08-04,2026-08-08,Supplier substitution,Mechanical,Low,4,1,825
+ECO-0005,2026-08-05,2026-08-16,Drawing correction,Manufacturing,Medium,11,4,1800
+ECO-0006,2026-08-06,2026-08-24,BOM update,Supply Chain,High,18,0,0
+ECO-0007,2026-08-07,2026-08-25,Tolerance revision,Mechanical,Low,18,1,700
+ECO-0008,2026-08-08,2026-08-21,Supplier substitution,Manufacturing,Medium,13,4,3300
+ECO-0009,2026-08-09,2026-08-29,Drawing correction,Supply Chain,High,20,7,3150
+ECO-0010,2026-08-10,2026-08-18,BOM update,Mechanical,Low,8,1,575
+ECO-0011,2026-08-11,2026-08-26,Tolerance revision,Manufacturing,Medium,15,0,0
+ECO-0012,2026-08-12,2026-08-15,Supplier substitution,Supply Chain,High,3,7,5775
+ECO-0013,2026-08-13,2026-09-04,Drawing correction,Mechanical,Low,22,1,450
+ECO-0014,2026-08-14,2026-08-31,BOM update,Manufacturing,Medium,17,4,2300
+ECO-0015,2026-08-15,2026-08-20,Tolerance revision,Supply Chain,High,5,7,4900
+ECO-0016,2026-08-16,2026-08-28,Supplier substitution,Mechanical,Low,12,0,0
+ECO-0017,2026-08-17,2026-09-05,Drawing correction,Manufacturing,Medium,19,4,1800
+ECO-0018,2026-08-18,2026-08-25,BOM update,Supply Chain,High,7,7,4025
+ECO-0019,2026-08-19,2026-09-14,Tolerance revision,Mechanical,Low,26,1,700
+ECO-0020,2026-08-20,2026-08-22,Supplier substitution,Manufacturing,Medium,2,4,3300
+ECO-0021,2026-08-21,2026-08-30,Drawing correction,Supply Chain,High,9,0,0
+ECO-0022,2026-08-22,2026-09-07,BOM update,Mechanical,Low,16,1,575
+ECO-0023,2026-08-23,2026-08-27,Tolerance revision,Manufacturing,Medium,4,4,2800
+ECO-0024,2026-08-24,2026-09-04,Supplier substitution,Supply Chain,High,11,7,5775
+ECO-0025,2026-08-25,2026-09-24,Drawing correction,Mechanical,Low,30,1,450
+ECO-0026,2026-08-26,2026-09-01,BOM update,Manufacturing,Medium,6,0,0
+ECO-0027,2026-08-27,2026-09-09,Tolerance revision,Supply Chain,High,13,7,4900
+ECO-0028,2026-08-28,2026-09-17,Supplier substitution,Mechanical,Low,20,1,825
+ECO-0029,2026-08-29,2026-09-06,Drawing correction,Manufacturing,Medium,8,4,1800
+ECO-0030,2026-08-30,2026-09-14,BOM update,Supply Chain,High,15,7,4025
+ECO-0031,2026-08-31,2026-09-15,Tolerance revision,Mechanical,Low,15,0,0
+ECO-0032,2026-09-01,2026-09-11,Supplier substitution,Manufacturing,Medium,10,4,3300
+ECO-0033,2026-09-02,2026-09-19,Drawing correction,Supply Chain,High,17,7,3150
+ECO-0034,2026-09-03,2026-09-08,BOM update,Mechanical,Low,5,1,575
+ECO-0035,2026-09-04,2026-09-16,Tolerance revision,Manufacturing,Medium,12,4,2800
+ECO-0036,2026-09-05,2026-09-24,Supplier substitution,Supply Chain,High,19,0,0
+ECO-0037,2026-09-06,2026-09-25,Drawing correction,Mechanical,Low,19,1,450
+ECO-0038,2026-09-07,2026-09-21,BOM update,Manufacturing,Medium,14,4,2300
+ECO-0039,2026-09-08,2026-09-10,Tolerance revision,Supply Chain,High,2,7,4900
+ECO-0040,2026-09-09,2026-09-18,Supplier substitution,Mechanical,Low,9,1,825
+ECO-0041,2026-09-10,2026-09-26,Drawing correction,Manufacturing,Medium,16,0,0
+ECO-0042,2026-09-11,2026-09-15,BOM update,Supply Chain,High,4,7,4025
+ECO-0043,2026-09-12,2026-10-05,Tolerance revision,Mechanical,Low,23,1,700
+ECO-0044,2026-09-13,2026-10-01,Supplier substitution,Manufacturing,Medium,18,4,3300
+ECO-0045,2026-09-14,2026-09-20,Drawing correction,Supply Chain,High,6,7,3150
+ECO-0046,2026-09-15,2026-09-28,BOM update,Mechanical,Low,13,0,0
+ECO-0047,2026-09-16,2026-10-06,Tolerance revision,Manufacturing,Medium,20,4,2800
+ECO-0048,2026-09-17,2026-09-25,Supplier substitution,Supply Chain,High,8,7,5775
+ECO-0049,2026-09-18,2026-10-15,Drawing correction,Mechanical,Low,27,1,450
+ECO-0050,2026-09-19,2026-09-22,BOM update,Manufacturing,Medium,3,4,2300
+ECO-0051,2026-09-20,2026-09-30,Tolerance revision,Supply Chain,High,10,0,0
+ECO-0052,2026-09-21,2026-10-08,Supplier substitution,Mechanical,Low,17,1,825
+ECO-0053,2026-09-22,2026-09-27,Drawing correction,Manufacturing,Medium,5,4,1800
+ECO-0054,2026-09-23,2026-10-05,BOM update,Supply Chain,High,12,7,4025
+ECO-0055,2026-09-24,2026-10-25,Tolerance revision,Mechanical,Low,31,1,700
+ECO-0056,2026-08-01,2026-08-08,Supplier substitution,Manufacturing,Medium,7,0,0
+ECO-0057,2026-08-02,2026-08-16,Drawing correction,Supply Chain,High,14,7,3150
+ECO-0058,2026-08-03,2026-08-05,BOM update,Mechanical,Low,2,1,575
+ECO-0059,2026-08-04,2026-08-13,Tolerance revision,Manufacturing,Medium,9,4,2800
+ECO-0060,2026-08-05,2026-08-21,Supplier substitution,Supply Chain,High,16,7,5775
+ECO-0061,2026-08-06,2026-08-22,Drawing correction,Mechanical,Low,16,0,0
+ECO-0062,2026-08-07,2026-08-18,BOM update,Manufacturing,Medium,11,4,2300
+ECO-0063,2026-08-08,2026-08-26,Tolerance revision,Supply Chain,High,18,7,4900
+ECO-0064,2026-08-09,2026-08-15,Supplier substitution,Mechanical,Low,6,1,825
+ECO-0065,2026-08-10,2026-08-23,Drawing correction,Manufacturing,Medium,13,4,1800
+ECO-0066,2026-08-11,2026-08-31,BOM update,Supply Chain,High,20,0,0
+ECO-0067,2026-08-12,2026-09-01,Tolerance revision,Mechanical,Low,20,1,700
+ECO-0068,2026-08-13,2026-08-28,Supplier substitution,Manufacturing,Medium,15,4,3300
+ECO-0069,2026-08-14,2026-08-17,Drawing correction,Supply Chain,High,3,7,3150
+ECO-0070,2026-08-15,2026-08-25,BOM update,Mechanical,Low,10,1,575
+ECO-0071,2026-08-16,2026-09-02,Tolerance revision,Manufacturing,Medium,17,0,0
+ECO-0072,2026-08-17,2026-08-22,Supplier substitution,Supply Chain,High,5,7,5775
+ECO-0073,2026-08-18,2026-09-11,Drawing correction,Mechanical,Low,24,1,450
+ECO-0074,2026-08-19,2026-09-07,BOM update,Manufacturing,Medium,19,4,2300
+ECO-0075,2026-08-20,2026-08-27,Tolerance revision,Supply Chain,High,7,7,4900
+ECO-0076,2026-08-21,2026-09-04,Supplier substitution,Mechanical,Low,14,0,0
+ECO-0077,2026-08-22,2026-08-24,Drawing correction,Manufacturing,Medium,2,4,1800
+ECO-0078,2026-08-23,2026-09-01,BOM update,Supply Chain,High,9,7,4025
+ECO-0079,2026-08-24,2026-09-21,Tolerance revision,Mechanical,Low,28,1,700
+ECO-0080,2026-08-25,2026-08-29,Supplier substitution,Manufacturing,Medium,4,4,3300
+ECO-0081,2026-08-26,2026-09-06,Drawing correction,Supply Chain,High,11,0,0
+ECO-0082,2026-08-27,2026-09-14,BOM update,Mechanical,Low,18,1,575
+ECO-0083,2026-08-28,2026-09-03,Tolerance revision,Manufacturing,Medium,6,4,2800
+ECO-0084,2026-08-29,2026-09-11,Supplier substitution,Supply Chain,High,13,7,5775
+ECO-0085,2026-08-30,2026-10-01,Drawing correction,Mechanical,Low,32,1,450
+ECO-0086,2026-08-31,2026-09-08,BOM update,Manufacturing,Medium,8,0,0
+ECO-0087,2026-09-01,2026-09-16,Tolerance revision,Supply Chain,High,15,7,4900
+ECO-0088,2026-09-02,2026-09-05,Supplier substitution,Mechanical,Low,3,1,825
+ECO-0089,2026-09-03,2026-09-13,Drawing correction,Manufacturing,Medium,10,4,1800
+ECO-0090,2026-09-04,2026-09-21,BOM update,Supply Chain,High,17,7,4025
+ECO-0091,2026-09-05,2026-09-22,Tolerance revision,Mechanical,Low,17,0,0
+ECO-0092,2026-09-06,2026-09-18,Supplier substitution,Manufacturing,Medium,12,4,3300
+ECO-0093,2026-09-07,2026-09-26,Drawing correction,Supply Chain,High,19,7,3150
+ECO-0094,2026-09-08,2026-09-15,BOM update,Mechanical,Low,7,1,575
+ECO-0095,2026-09-09,2026-09-23,Tolerance revision,Manufacturing,Medium,14,4,2800
+ECO-0096,2026-09-10,2026-09-12,Supplier substitution,Supply Chain,High,2,0,0
