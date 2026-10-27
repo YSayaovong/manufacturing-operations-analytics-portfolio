@@ -1,0 +1,61 @@
+part_id,category,supplier,on_hand_units,avg_daily_demand,lead_time_days,deliveries,on_time_deliveries,days_cover
+P-001,Fasteners,Supplier A,10,5,3,8,8,2
+P-002,Bearings,Supplier B,29,12,8,9,6,2.4
+P-003,Sheet metal,Supplier C,48,19,13,10,8,2.5
+P-004,Hydraulics,Supplier A,67,26,3,11,10,2.6
+P-005,Fasteners,Supplier B,86,33,8,12,12,2.6
+P-006,Bearings,Supplier C,105,10,13,13,10,10.5
+P-007,Sheet metal,Supplier A,124,17,3,14,12,7.3
+P-008,Hydraulics,Supplier B,143,24,8,8,7,6
+P-009,Fasteners,Supplier C,162,31,13,9,9,5.2
+P-010,Bearings,Supplier A,181,8,3,10,7,22.6
+P-011,Sheet metal,Supplier B,200,15,8,11,9,13.3
+P-012,Hydraulics,Supplier C,219,22,13,12,11,10
+P-013,Fasteners,Supplier A,18,29,3,13,13,0.6
+P-014,Bearings,Supplier B,37,6,8,14,11,6.2
+P-015,Sheet metal,Supplier C,56,13,13,8,6,4.3
+P-016,Hydraulics,Supplier A,75,20,3,9,8,3.8
+P-017,Fasteners,Supplier B,94,27,8,10,10,3.5
+P-018,Bearings,Supplier C,113,34,13,11,8,3.3
+P-019,Sheet metal,Supplier A,132,11,3,12,10,12
+P-020,Hydraulics,Supplier B,151,18,8,13,12,8.4
+P-021,Fasteners,Supplier C,170,25,13,14,14,6.8
+P-022,Bearings,Supplier A,189,32,3,8,5,5.9
+P-023,Sheet metal,Supplier B,208,9,8,9,7,23.1
+P-024,Hydraulics,Supplier C,227,16,13,10,9,14.2
+P-025,Fasteners,Supplier A,26,23,3,11,11,1.1
+P-026,Bearings,Supplier B,45,30,8,12,9,1.5
+P-027,Sheet metal,Supplier C,64,7,13,13,11,9.1
+P-028,Hydraulics,Supplier A,83,14,3,14,13,5.9
+P-029,Fasteners,Supplier B,102,21,8,8,8,4.9
+P-030,Bearings,Supplier C,121,28,13,9,6,4.3
+P-031,Sheet metal,Supplier A,140,5,3,10,8,28
+P-032,Hydraulics,Supplier B,159,12,8,11,10,13.3
+P-033,Fasteners,Supplier C,178,19,13,12,12,9.4
+P-034,Bearings,Supplier A,197,26,3,13,10,7.6
+P-035,Sheet metal,Supplier B,216,33,8,14,12,6.5
+P-036,Hydraulics,Supplier C,15,10,13,8,7,1.5
+P-037,Fasteners,Supplier A,34,17,3,9,9,2
+P-038,Bearings,Supplier B,53,24,8,10,7,2.2
+P-039,Sheet metal,Supplier C,72,31,13,11,9,2.3
+P-040,Hydraulics,Supplier A,91,8,3,12,11,11.4
+P-041,Fasteners,Supplier B,110,15,8,13,13,7.3
+P-042,Bearings,Supplier C,129,22,13,14,11,5.9
+P-043,Sheet metal,Supplier A,148,29,3,8,6,5.1
+P-044,Hydraulics,Supplier B,167,6,8,9,8,27.8
+P-045,Fasteners,Supplier C,186,13,13,10,10,14.3
+P-046,Bearings,Supplier A,205,20,3,11,8,10.3
+P-047,Sheet metal,Supplier B,224,27,8,12,10,8.3
+P-048,Hydraulics,Supplier C,23,34,13,13,12,0.7
+P-049,Fasteners,Supplier A,42,11,3,14,14,3.8
+P-050,Bearings,Supplier B,61,18,8,8,5,3.4
+P-051,Sheet metal,Supplier C,80,25,13,9,7,3.2
+P-052,Hydraulics,Supplier A,99,32,3,10,9,3.1
+P-053,Fasteners,Supplier B,118,9,8,11,11,13.1
+P-054,Bearings,Supplier C,137,16,13,12,9,8.6
+P-055,Sheet metal,Supplier A,156,23,3,13,11,6.8
+P-056,Hydraulics,Supplier B,175,30,8,14,13,5.8
+P-057,Fasteners,Supplier C,194,7,13,8,8,27.7
+P-058,Bearings,Supplier A,213,14,3,9,6,15.2
+P-059,Sheet metal,Supplier B,12,21,8,10,8,0.6
+P-060,Hydraulics,Supplier C,31,28,13,11,10,1.1
