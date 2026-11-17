@@ -1,72 +1,46 @@
-# Manufacturing Operations Analytics | Portfolio
+# Manufacturing Operations Analytics Portfolio
 
-### Mechanical Design Experience → Operations Analytics
+**Engineering-focused analysis | Manufacturing KPIs | Quality | Production planning | Engineering changes**
 
-**Focus:** Manufacturing performance • Production planning • Quality • Supply chain • Engineering change management
+I built this collection of six case studies to show how I approach manufacturing and engineering problems from a data and process perspective. My mechanical design background gives me a practical understanding of how engineering changes, production constraints and data accuracy affect downstream work. Here, I use synthetic datasets to demonstrate how I would define metrics, validate records and communicate findings to decision-makers.
 
-This portfolio demonstrates how engineering process knowledge can be applied to operational decisions through KPI definition, data validation, SQL, Python, spreadsheet analysis, and business intelligence reporting.
+## Projects and business questions
 
-My professional background in mechanical design informs the manufacturing context of these case studies. **All project datasets are synthetic**; the reported results are demonstrations, not measured outcomes from my employer or clients.
+| Case study | Question I examine | Evidence |
+|---|---|---|
+| [01 — OEE and Downtime](01-oee-downtime/) | Where is scheduled production time being lost? | [Case study](01-oee-downtime/CASE_STUDY.md) |
+| [02 — Production KPIs](02-production-kpis/) | How does actual output compare with plan? | [Case study](02-production-kpis/CASE_STUDY.md) |
+| [03 — Quality Analysis](03-quality-sql/) | Which defect categories warrant investigation? | [Case study](03-quality-sql/CASE_STUDY.md) |
+| [04 — Inventory and Supply Chain](04-inventory-tableau/) | Where could inventory cover and delivery performance create risk? | [Case study](04-inventory-tableau/CASE_STUDY.md) |
+| [05 — Production Planning](05-production-planning/) | How do capacity and actual output compare with the schedule? | [Case study](05-production-planning/CASE_STUDY.md) |
+| [06 — Engineering Change Orders](06-engineering-changes/) | Where might revision approvals affect production readiness? | [Case study](06-engineering-changes/CASE_STUDY.md) |
 
-## Selected operations analytics case studies
+## Why I included engineering change analysis
 
-| Business problem | Case study | Key competencies | Executive presentation |
-|---|---|---|---|
-| Machine downtime and lost production | [01 · OEE and Downtime](01-oee-downtime/) | OEE, availability, loss analysis, Python | [View brief and chart](01-oee-downtime/CASE_STUDY.md) |
-| Output versus plan and scrap | [02 · Production KPIs](02-production-kpis/) | Shift comparison, throughput, spreadsheet KPIs | [View brief and chart](02-production-kpis/CASE_STUDY.md) |
-| Manufacturing defects and quality exposure | [03 · Quality Analysis](03-quality-sql/) | SQL, defect rates, Pareto, supplier segmentation | [View brief and chart](03-quality-sql/CASE_STUDY.md) |
-| Stockout risk and supplier reliability | [04 · Inventory and Supply Chain](04-inventory-tableau/) | Inventory cover, lead time, delivery performance | [View brief and chart](04-inventory-tableau/CASE_STUDY.md) |
-| Production capacity and plan adherence | [05 · Production Planning](05-production-planning/) | Capacity utilization, DAX, variance analysis | [View brief and chart](05-production-planning/CASE_STUDY.md) |
-| Engineering revision and approval bottlenecks | [06 · Engineering Change Orders](06-engineering-changes/) | PLM-style process analysis, SQL, Python, delay cost | [View brief and chart](06-engineering-changes/CASE_STUDY.md) |
+I see engineering change management as a connection between design, configuration control, purchasing and manufacturing. In my [engineering change case study](06-engineering-changes/CASE_STUDY.md), I examine approval lead times, revision categories, simulated production delays and illustrative cost exposure. The goal is to make workflow bottlenecks visible without confusing correlation with a proven root cause.
 
-## Featured case study: Engineering Change Order workflow
+## How I work through an analysis
 
-Engineering changes affect more than drawing release: they can influence purchasing, work instructions, manufacturing schedules, and production readiness. [Project 06](06-engineering-changes/CASE_STUDY.md) examines approval cycle time, revision categories, associated production delays, and simulated cost exposure. It proposes a measurement approach for cross-functional workflow improvements.
+1. Define the decision and the people who need the information.
+2. Establish the metric, reporting period, denominator and level of detail.
+3. Check identifiers, missing values and calculation consistency.
+4. Compare relevant processes, teams, suppliers or production periods.
+5. Present findings alongside assumptions and recommended next investigations.
 
-## How I approach an operations problem
+## Tools and deliverables
 
-1. **Define the decision:** Identify the operational problem, process owner, and action threshold.
-2. **Specify the metric:** Define numerator, denominator, grain, units, and reporting period.
-3. **Validate inputs:** Check completeness, arithmetic, identifiers, and business-rule consistency.
-4. **Analyze variation:** Compare equipment, shifts, suppliers, processes, or engineering change categories.
-5. **Recommend countermeasures:** Separate observed associations from proven root causes.
-6. **Measure results:** Propose a baseline, follow-up interval, and operational guardrails.
+I use SQL, Python, spreadsheets and business-intelligence-oriented data models across the case studies. Each folder includes a synthetic CSV, a written case study and an SVG chart. Selected projects also include SQL, DAX or Python notebooks.
 
-## Technical skills demonstrated
+To verify the repository's file structure, CSV formatting, notebook structure and local documentation links, run:
 
-- **SQL:** Aggregation, CTEs, supplier/process segmentation, window-function Pareto analysis
-- **Python:** pandas, charting, reproducible Google Colab notebooks
-- **Spreadsheet analysis:** KPI formulas, weighted rates, pivot-dashboard instructions
-- **Business intelligence:** Tableau-ready source and presentation, Power BI-ready DAX and data
-- **Operations:** OEE, throughput, scrap, quality, on-time delivery, inventory cover, utilization, ECO lead time
+```bash
+python validate_portfolio.py
+```
 
-## Explore the evidence
+The [GitHub Actions workflow](.github/workflows/checks.yml) runs these structural checks automatically. **These checks do not independently validate every KPI or execute the notebooks.**
 
-Every project folder contains a [case study](01-oee-downtime/CASE_STUDY.md), a synthetic CSV, and an SVG comparison chart. Projects also contain notebooks, SQL, DAX, or browser walkthroughs as applicable.
+## What these projects demonstrate
 
-**Current deliverable status:** The six case-study narratives and charts are published here. Native hosted Tableau, Power BI, and Google Sheets dashboards are **not yet published**; the relevant folders provide source files and instructions. Python notebooks are provided as runnable source but have not been independently executed in Colab. These limitations are disclosed rather than claiming unverified work.
+For engineering configuration, engineering business analysis and manufacturing systems roles, I want these examples to show my approach to data integrity, process visibility, requirements-driven metrics and clear documentation—not simply my ability to produce charts.
 
-## Data ethics and limitations
-
-- Synthetic datasets were created specifically for educational portfolio demonstrations.
-- No confidential engineering drawings, PLM records, factory performance, or employer data are included.
-- Financial exposure is illustrative, not a validated realized cost or saving.
-- Findings are descriptive and should not be interpreted as causal without process investigation.
-- These case studies are not certifications or claims of professional operations analyst employment.
-
-## Browser-based reproduction
-
-[Google Colab](https://colab.research.google.com/) · [Google Sheets](https://sheets.google.com/) · [SQLite Online](https://sqliteonline.com/) · [Tableau Public](https://public.tableau.com/) · [Power BI Service](https://app.powerbi.com/)
-
----
-*Portfolio focus: translating mechanical design process understanding into evidence-based manufacturing operations decisions.*
-
-## Hiring-manager walkthrough
-
-**Business question:** Which manufacturing performance losses and engineering-change delays deserve investigation first?
-
-**Suggested review path:** Start with the [engineering-change case study](06-engineering-changes/CASE_STUDY.md), then compare the [quality analysis](03-quality-sql/CASE_STUDY.md) and [production planning case study](05-production-planning/CASE_STUDY.md). Each example frames a decision, defines metrics and distinguishes simulated observations from operational recommendations.
-
-**Evidence standard:** The case-study outputs are demonstrations on synthetic records. Validate the source files, aggregation grain and calculations before applying any proposed action to a real manufacturing process. Dashboard hosting, notebook execution and operational outcomes are not independently verified here.
-
-**Relevant roles:** Engineering Configuration Analyst, Engineering Business Analyst, Manufacturing Systems Analyst and Operations Analyst.
+**Important scope:** All data is synthetic. No employer engineering drawings, PLM records or confidential factory metrics are represented. Results are illustrative, not documented workplace improvements. Hosted Tableau, Power BI and Google Sheets dashboards are not included, and the notebooks have not been independently executed in Colab.
