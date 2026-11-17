@@ -60,3 +60,13 @@ Every project folder contains a [case study](01-oee-downtime/CASE_STUDY.md), a s
 
 ---
 *Portfolio focus: translating mechanical design process understanding into evidence-based manufacturing operations decisions.*
+
+## Hiring-manager walkthrough
+
+**Business question:** Which manufacturing performance losses and engineering-change delays deserve investigation first?
+
+**Suggested review path:** Start with the [engineering-change case study](06-engineering-changes/CASE_STUDY.md), then compare the [quality analysis](03-quality-sql/CASE_STUDY.md) and [production planning case study](05-production-planning/CASE_STUDY.md). Each example frames a decision, defines metrics and distinguishes simulated observations from operational recommendations.
+
+**Evidence standard:** The case-study outputs are demonstrations on synthetic records. Validate the source files, aggregation grain and calculations before applying any proposed action to a real manufacturing process. Dashboard hosting, notebook execution and operational outcomes are not independently verified here.
+
+**Relevant roles:** Engineering Configuration Analyst, Engineering Business Analyst, Manufacturing Systems Analyst and Operations Analyst.
