@@ -21,7 +21,7 @@ for folder in FOLDERS:
         assert all(None not in row and None not in row.values() for row in rows), f"Malformed CSV: {folder}"
     for filename in ("README.md", "CASE_STUDY.md"):
         content = (base / filename).read_text(encoding="utf-8")
-        for link in re.findall(r"(?<!!)\\[[^]]+\\]\\(([^)]+)\\)", content):
+        for link in re.findall(r"(?<!!)\[[^]]+\]\(([^)]+)\)", content):
             if link.startswith(("https://", "http://", "#", "mailto:")):
                 continue
             target = (base / link.split("#", 1)[0]).resolve()
